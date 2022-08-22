@@ -1,7 +1,14 @@
 import { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
 
+// import Nav from './components/Nav';
+import About from './components/pages/About/About'
 import Header from './components/Header'
-import Nav from './components/Nav'
+import Navigation from './components/Nav'
 import Footer from './components/Footer'
 
 import './App.css';
@@ -13,15 +20,12 @@ function App() {
   return (
     <div>
       <Header name = 'Andrews Portfolio'/>
-      <Nav>
-      {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes> */}
-      </Nav>
+        <Router>
+          <Routes>
+            <Route path="/about" element={<About />} /> 
+            <Route path="*" element={<Navigation to="/"/>} />
+          </Routes>
+        </Router>
       <Footer />
     </div>
   );
