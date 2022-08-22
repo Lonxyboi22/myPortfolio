@@ -1,13 +1,16 @@
+import React, { useState } from "react";
+
 const Nav = (props) => {
+    
     return (
-      <nav>
-        <ul>
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Work</li>
+                <li>Resume</li>
+            </ul>
+        </nav>
     )
   }
   
