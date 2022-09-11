@@ -15,11 +15,11 @@ const About = (props) => {
                 }}>
             <Card>
                 <Card.Body>
-                    <p style={{ textAlighn: "justify" }}>
+                    <p style={{ textAlighn: "justify-content" }}>
                         Hello everyone, welcome to my page! I am Andrew MacPherson from Grand Rapids, MI. <br />
                         I am just finishing up the coding bootcamp through Michigan State University which teaches you full stack webdevelopment. All in 6 months!!! <br />
                         <br/>
-                        Aside from coding, I also enjoy quite a few other activities.
+                        Aside from coding, I also enjoy quite a few other activities. Such as:
                     </p>
                     <ul>
                         <li className="about-activity">Tending to house and garden plants</li>

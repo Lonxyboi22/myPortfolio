@@ -1,41 +1,33 @@
-import { useState } from "react";
-import {Navbar, Nav, Container} from "react-bootstrap"
-import { Link } from "react-router-dom";
+import "bulma/css/bulma.min.css";
 
 const Navigation = (props) => {
     return (
-        <Container>
-         <Navbar className="sticky navbar">
-            <Nav.Item>
-              <Nav.Link as={Link}
-                to="/">Home </Nav.Link>
-            </Nav.Item>
+      <nav
+      className="navbar is-warning is-spaced"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="navbar-brand">
+        <a className="navbar-item" href="/">
+          Home
+        </a>
+      </div>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about">
-                 About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project">
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"> Resume
-              </Nav.Link>
-            </Nav.Item>
-
-        </Navbar>
-    </Container>
+      <div className="navbar-menu has-dropdown is-active">
+        <a className="navbar-item" href="/about">
+          About
+        </a>
+        <a className="navbar-item" href="/Projects">
+          Projects
+        </a>
+        <a className="navbar-item" href="/resume">
+          Resume
+        </a>
+        <a className="navbar-item" href="/contact">
+          Contact Me
+        </a>
+      </div>
+    </nav>
     )
   }
   
