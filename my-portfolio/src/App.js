@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div>
-      <Header name = 'Andrews Portfolio'/>
       <Navigation />
         <Router>
           <Routes>
@@ -29,7 +28,7 @@ function App() {
             <Route path='/resume' element={<Resume />} />
           </Routes>
         </Router>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

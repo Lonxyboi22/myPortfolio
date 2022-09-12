@@ -3,7 +3,7 @@ import "bulma/css/bulma.min.css";
 const Navigation = (props) => {
     return (
       <nav
-      className="navbar is-warning is-spaced"
+      className="navbar is-success is-spaced"
       role="navigation"
       aria-label="main navigation"
     >
