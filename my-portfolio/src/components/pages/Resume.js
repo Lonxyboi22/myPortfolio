@@ -17,7 +17,7 @@ export default function Test() {
   }
   return (
     <>
-    <div className="main center">
+    <div className="main">
       <Document
         file={Resume}
         onLoadSuccess={onDocumentLoadSuccess}
