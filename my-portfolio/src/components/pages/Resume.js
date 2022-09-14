@@ -17,7 +17,7 @@ export default function Test() {
   }
   return (
     <>
-    <div className="main">
+    <div className="main" style={{ display:"flex", justifyContent:"center" }}>
       <Document
         file={Resume}
         onLoadSuccess={onDocumentLoadSuccess}

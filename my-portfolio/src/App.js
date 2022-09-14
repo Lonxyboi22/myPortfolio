@@ -8,7 +8,7 @@ import {
 // import Nav from './components/Nav';
 
 import About from './components/pages/About'
-import Header from './components/Header'
+import Home from './components/pages/Home'
 import Navigation from './components/Nav'
 import Footer from './components/Footer'
 import Resume from './components/pages/Resume'
@@ -24,6 +24,7 @@ function App() {
       <Navigation />
         <Router>
           <Routes>
+            <Route path='/' element={<Home/>} />
             <Route path="/about" element={<About />}  />
             <Route path='/resume' element={<Resume />} />
           </Routes>
