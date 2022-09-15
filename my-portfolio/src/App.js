@@ -13,8 +13,8 @@ import Navigation from './components/Nav'
 import Footer from './components/Footer'
 import Resume from './components/pages/Resume'
 
+import Projects from './components/pages/Projects';
 import './App.css';
-
 
 function App() {
   //
@@ -26,6 +26,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path="/about" element={<About />}  />
+            <Route path="/projects" element={<Projects />}  />
             <Route path='/resume' element={<Resume />} />
           </Routes>
         </Router>

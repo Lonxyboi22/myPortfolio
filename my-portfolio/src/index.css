@@ -14,10 +14,10 @@ code {
 }
 
 .home-card1 {
-  display: "flex";
-  justify-content: "flex-start";
-  padding-top: "30px";
-  padding-bottom: "50px";
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 50px;
   z-index: 2;
 }
 
@@ -34,10 +34,47 @@ code {
 }
 
 .home-card2 {
-  display: "flex";
-  justify-content: "flex-end";
-  padding-top: "30px";
-  padding-bottom: "50px";
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 50px;
   z-index: 1;
   opacity: 0.5;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center
+}
+
+.project-card1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card3 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card4 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
 }
