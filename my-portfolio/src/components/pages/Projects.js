@@ -7,8 +7,8 @@ const Projects = (props) => {
         <Container className= "project-container">
             <Card className="project-card1">
                 <Card.Body className="card-body">
-                    <a href="https://www.instagram.com/lonxyboi22/">
-                        <img style={{ width: 600, height: 270 }} src={require('../images/binaryCode.jpg')}></img>
+                    <a href="https://purrfect-pet-shop.herokuapp.com/">
+                        <img style={{ width: 600, height: 270 }} src={require('../images/purrfect_pets.jpg')}></img>
                     </a>
                 </Card.Body>
             </Card>
