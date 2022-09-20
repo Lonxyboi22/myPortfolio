@@ -42,6 +42,31 @@ code {
   opacity: 0.5;
 }
 
+.about-card1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  flex-wrap: wrap;
+}
+
+.about-card2 {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.about-card {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
 .project-container {
   display: flex;
   justify-content: center;

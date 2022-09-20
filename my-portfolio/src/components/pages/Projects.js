@@ -14,8 +14,8 @@ const Projects = (props) => {
             </Card>
             <Card className="project-card2">
                 <Card.Body>
-                    <a href="https://www.instagram.com/lonxyboi22/">
-                        <img style={{ width: 600, height: 270 }} src={require('../images/javaScriptbg.png')}></img>
+                    <a href="https://lonxyboi22.github.io/vocabBuilder/">
+                        <img style={{ width: 600, height: 270 }} src={require('../images/vocabB.png')}></img>
                     </a>
                 </Card.Body>
             </Card>
@@ -29,7 +29,7 @@ const Projects = (props) => {
             <Card className="project-card4">
                 <Card.Body>
                     <a href="https://www.instagram.com/lonxyboi22/">
-                        <img style={{ width: 600, height: 270 }} src={require('../images/javaScriptbg.png')}></img>
+                        <img style={{ width: 600, height: 270 }} src={require('../images/tbc.png')}></img>
                     </a>
                 </Card.Body>
             </Card>

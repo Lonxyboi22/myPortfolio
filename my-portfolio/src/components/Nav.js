@@ -23,9 +23,6 @@ const Navigation = (props) => {
         <a className="navbar-item" href="/resume">
           Resume
         </a>
-        <a className="navbar-item" href="/contact">
-          Contact Me
-        </a>
       </div>
     </nav>
     )
