@@ -8,9 +8,9 @@ const Home = (props) => {
             <Card className="home-card1">
                 <Card.Body className="card-body">
                     <h1>
-                        Code!! <br />
+                        Welcome to my page! <br />
                     </h1>
-                    <p>
+                    <p> Some skills I have: <br/>
                         Front-end Developer, <br/>
                         focusing on clean and <br/>
                         efficient code. I use <br/>
