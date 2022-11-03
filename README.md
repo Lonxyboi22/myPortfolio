@@ -29,6 +29,6 @@ n/a
 ## Questions
 
 Have questions about this project?  
- GitHub: https://github.com/lonxyboi22/github.com  
+ GitHub: https://github.com/Lonxyboi22
  Email: drewthemachine22@gmail.com
 
