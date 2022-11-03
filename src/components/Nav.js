@@ -8,19 +8,19 @@ const Navigation = (props) => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="/myPortfolio">
           Home
         </a>
       </div>
 
       <div className="navbar-menu has-dropdown is-active">
-        <a className="navbar-item" href="/about">
+        <a className="navbar-item" href="myPortfolio/about">
           About
         </a>
-        <a className="navbar-item" href="/Projects">
+        <a className="navbar-item" href="myPortfolio/projects">
           Projects
         </a>
-        <a className="navbar-item" href="/resume">
+        <a className="navbar-item" href="myPortfolio/resume">
           Resume
         </a>
       </div>
