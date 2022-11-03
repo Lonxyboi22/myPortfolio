@@ -19,7 +19,7 @@ const About = (props) => {
                 <Card.Body className="about-card2">
                     <p>
                         Hello everyone, welcome to my page! I am Andrew MacPherson from Grand Rapids, MI. <br />
-                        I am just finishing up the coding bootcamp through Michigan State University which teaches you full stack webdevelopment. <br /> 
+                        I am just finishing up the coding bootcamp through Michigan State University which teaches you full stack web development. <br /> 
                         This is all done in a matter of 6 months! <br />
                         <br/>
                         Aside from coding, I also enjoy quite a few other activities. Such as:
@@ -30,7 +30,7 @@ const About = (props) => {
                         <li className="about-activity">Baking/Cooking</li>
                     </ul>
                     <p>
-                       Please feel free to explore my porfolio/github and other projects I have accompilished during the MSU Coding bootcamp! 
+                       Please feel free to explore my porfolio/github and other projects I have accompilished during the MSU Coding bootcamp and beyond! 
                     </p>
                 </Card.Body>
             </Card>
