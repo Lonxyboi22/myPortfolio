@@ -24,10 +24,10 @@ function App() {
       <Navigation />
         <Router>
           <Routes>
-            <Route path='/myPortfolio' element={<Home/>} />
-            <Route path="/myPortfolio/about" element={<About />}  />
-            <Route path="/myPortfolio/projects" element={<Projects />}  />
-            <Route path='/myPortfolio/resume' element={<Resume />} />
+            <Route path='/' element={<Home/>} />
+            <Route path="/about" element={<About />}  />
+            <Route path="/projects" element={<Projects />}  />
+            <Route path='/resume' element={<Resume />} />
           </Routes>
         </Router>
       <Footer/>
