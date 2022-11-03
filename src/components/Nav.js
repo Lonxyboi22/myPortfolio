@@ -14,13 +14,13 @@ const Navigation = (props) => {
       </div>
 
       <div className="navbar-menu has-dropdown is-active">
-        <a className="navbar-item" href="myPortfolio/about">
+        <a className="navbar-item" href="/myPortfolio/about">
           About
         </a>
-        <a className="navbar-item" href="myPortfolio/projects">
+        <a className="navbar-item" href="/myPortfolio/projects">
           Projects
         </a>
-        <a className="navbar-item" href="myPortfolio/resume">
+        <a className="navbar-item" href="/myPortfolio/resume">
           Resume
         </a>
       </div>
