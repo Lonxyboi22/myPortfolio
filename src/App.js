@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <Navigation />
-        <Router>
+        <Router basename='/'>
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path="/about" element={<About />}  />
